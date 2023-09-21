@@ -31,6 +31,10 @@ airflow scheduler
 ```bash
 airflow webserver -p 3000
 ```
+**Create airflow user to login**
+```bash
+airflow users create --username admin --firstname Hiep --lastname Truong --role Admin --email hiep@fsoft.com
+```
 **Set connections and variables**
 ```bash
 /home/workspace/set_connections_and_variables.sh
